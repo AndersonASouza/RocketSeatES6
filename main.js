@@ -66,7 +66,7 @@ console.log(nome); // Rocketseat
 console.log(cidade); // Rio do Sul
 console.log(estado); // SC
 
-function mostraInfo(nome, idade) {
+function mostraInfo({ nome: 'Diego', idade: 23 }) {
     return `${nome} tem ${idade} anos.`;
 }
 
